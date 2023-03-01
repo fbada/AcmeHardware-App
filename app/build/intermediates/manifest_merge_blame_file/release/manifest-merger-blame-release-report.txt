@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hardwarestore.acme"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-firestore:17.1.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/615e3b9a58ea535aa64bc88662d923c9/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:5-79
+12-->[com.google.firebase:firebase-firestore:17.1.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/615e3b9a58ea535aa64bc88662d923c9/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:22-76
+13
+14    <application
+14-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:7:5-47:19
+15        android:allowBackup="true"
+15-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/rds1/.gradle/caches/transforms-2/files-2.1/b8b26baa02d2c462c2a4ed94ddf402fb/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:11:9-41
+19        android:networkSecurityConfig="@xml/network_security_config"
+19-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:8:9-69
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:13:9-35
+22        android:theme="@style/AppTheme" >
+22-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:14:9-40
+23        <activity android:name="com.hardwarestore.acme.CheckoutActivityJava" />
+23-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:15:9-89
+23-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:15:19-77
+24        <activity android:name="com.hardwarestore.acme.ItemsActivity" />
+24-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:16:9-73
+24-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:16:19-70
+25        <activity android:name="com.hardwarestore.acme.PaymentActivity" />
+25-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:17:9-75
+25-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:17:19-72
+26        <activity
+26-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:18:9-20:83
+27            android:name="com.hardwarestore.acme.AddAddressActivity"
+27-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:19:13-69
+28            android:parentActivityName="com.hardwarestore.acme.AddressActivity" />
+28-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:20:13-80
+29        <activity
+29-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:21:9-23:82
+30            android:name="com.hardwarestore.acme.AddressActivity"
+30-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:22:13-66
+31            android:parentActivityName="com.hardwarestore.acme.DetailActivity" />
+31-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:23:13-79
+32        <activity
+32-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:24:9-26:80
+33            android:name="com.hardwarestore.acme.DetailActivity"
+33-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:25:13-65
+34            android:parentActivityName="com.hardwarestore.acme.HomeActivity" />
+34-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:26:13-77
+35        <activity android:name="com.hardwarestore.acme.ItemActivity" />
+35-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:27:9-72
+35-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:27:19-69
+36        <activity android:name="com.hardwarestore.acme.HomeActivity" />
+36-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:28:9-72
+36-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:28:19-69
+37        <activity
+37-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:29:9-31:80
+38            android:name="com.hardwarestore.acme.RegisterActivity"
+38-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:30:13-67
+39            android:parentActivityName="com.hardwarestore.acme.MainActivity" />
+39-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:31:13-77
+40        <activity
+40-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:32:9-34:80
+41            android:name="com.hardwarestore.acme.LoginActivity"
+41-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:33:13-64
+42            android:parentActivityName="com.hardwarestore.acme.MainActivity" />
+42-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:34:13-77
+43        <activity android:name="com.hardwarestore.acme.SplashScreenActivity" >
+43-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:35:9-41:20
+43-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:35:19-77
+44            <intent-filter>
+44-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:36:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:37:17-69
+45-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:39:17-77
+47-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.hardwarestore.acme.MainActivity" />
+50-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:42:9-72
+50-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:42:19-69
+51
+52        <meta-data
+52-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:44:9-46:55
+53            android:name="com.razorpay.ApiKey"
+53-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:45:13-47
+54            android:value="rzp_test_16aDCdOdDuAfHO" />
+54-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:46:13-52
+55
+56        <activity
+56-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:12:9-14:57
+57            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+57-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:13:13-76
+58            android:theme="@style/StripeDefaultTheme" />
+58-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:14:13-54
+59        <activity
+59-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:15:9-17:57
+60            android:name="com.stripe.android.view.PaymentMethodsActivity"
+60-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:16:13-74
+61            android:theme="@style/StripeDefaultTheme" />
+61-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:17:13-54
+62        <activity
+62-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:18:9-20:57
+63            android:name="com.stripe.android.view.PaymentFlowActivity"
+63-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:19:13-71
+64            android:theme="@style/StripeDefaultTheme" />
+64-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:20:13-54
+65        <activity
+65-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:21:9-23:57
+66            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+66-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:22:13-78
+67            android:theme="@style/StripeDefaultTheme" />
+67-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:23:13-54
+68        <activity
+68-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:24:9-26:57
+69            android:name="com.stripe.android.view.PaymentRelayActivity"
+69-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:25:13-72
+70            android:theme="@style/StripeDefaultTheme" />
+70-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:26:13-54
+71        <activity
+71-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:27:9-29:57
+72            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+72-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:28:13-80
+73            android:theme="@style/StripeDefaultTheme" />
+73-->[com.stripe:stripe-android:14.2.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/645a5fbe4b26fec6456a2a81635061b7/jetified-stripe-android-14.2.1/AndroidManifest.xml:29:13-54
+74        <activity
+74-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:12:9-14:54
+75            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+75-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:13:13-81
+76            android:theme="@style/Stripe3DS2Theme" />
+76-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:14:13-51
+77        <activity
+77-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:15:9-17:54
+78            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+78-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:16:13-95
+79            android:theme="@style/Stripe3DS2Theme" />
+79-->[com.stripe:stripe-3ds2-android:2.7.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/05a179f379f13e97a5d7e7c6606d0da7/jetified-stripe-3ds2-android-2.7.2/AndroidManifest.xml:17:13-51
+80        <activity
+80-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+81            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+81-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+82            android:excludeFromRecents="true"
+82-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+83            android:exported="true"
+83-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+84            android:launchMode="singleTask"
+84-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+85            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+85-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+87
+88        <service
+88-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+92-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-auth:16.0.5] /Users/rds1/.gradle/caches/transforms-2/files-2.1/8dbe7af7f6d1f1b5470cbab11bdece2f/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-firestore:17.1.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/615e3b9a58ea535aa64bc88662d923c9/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:15:13-17:85
+95                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+95-->[com.google.firebase:firebase-firestore:17.1.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/615e3b9a58ea535aa64bc88662d923c9/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:16:17-111
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-firestore:17.1.2] /Users/rds1/.gradle/caches/transforms-2/files-2.1/615e3b9a58ea535aa64bc88662d923c9/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:17:17-82
+97        </service>
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:16.0.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/1a9fdbcd7ccbfe2c3ddf7bc25898de93/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:16.0.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/1a9fdbcd7ccbfe2c3ddf7bc25898de93/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:16.0.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/1a9fdbcd7ccbfe2c3ddf7bc25898de93/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:16.0.1] /Users/rds1/.gradle/caches/transforms-2/files-2.1/1a9fdbcd7ccbfe2c3ddf7bc25898de93/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+103
+104        <provider
+104-->[com.google.firebase:firebase-common:16.0.3] /Users/rds1/.gradle/caches/transforms-2/files-2.1/ad9b31843fafb0bcc444175e30abbc1b/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+105            android:name="com.google.firebase.provider.FirebaseInitProvider"
+105-->[com.google.firebase:firebase-common:16.0.3] /Users/rds1/.gradle/caches/transforms-2/files-2.1/ad9b31843fafb0bcc444175e30abbc1b/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+106            android:authorities="com.hardwarestore.acme.firebaseinitprovider"
+106-->[com.google.firebase:firebase-common:16.0.3] /Users/rds1/.gradle/caches/transforms-2/files-2.1/ad9b31843fafb0bcc444175e30abbc1b/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+107            android:exported="false"
+107-->[com.google.firebase:firebase-common:16.0.3] /Users/rds1/.gradle/caches/transforms-2/files-2.1/ad9b31843fafb0bcc444175e30abbc1b/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+108            android:initOrder="100" />
+108-->[com.google.firebase:firebase-common:16.0.3] /Users/rds1/.gradle/caches/transforms-2/files-2.1/ad9b31843fafb0bcc444175e30abbc1b/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:16.1.0] /Users/rds1/.gradle/caches/transforms-2/files-2.1/056acde38c6c0c3815f439ab68f72b0c/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:16.1.0] /Users/rds1/.gradle/caches/transforms-2/files-2.1/056acde38c6c0c3815f439ab68f72b0c/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:16.1.0] /Users/rds1/.gradle/caches/transforms-2/files-2.1/056acde38c6c0c3815f439ab68f72b0c/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+113
+114        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+114-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:12:9-16:20
+114-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:12:19-63
+115            <intent-filter>
+115-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:13:13-15:29
+116                <action android:name="rzp.device_token.share" />
+116-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:14:17-65
+116-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:14:25-62
+117            </intent-filter>
+118        </receiver>
+119
+120        <activity
+120-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:18:9-29:20
+121            android:name="com.razorpay.CheckoutActivity"
+121-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:19:13-57
+122            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+122-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:20:13-83
+123            android:theme="@style/CheckoutTheme" >
+123-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:21:13-49
+124            <intent-filter>
+124-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:22:13-28:29
+125                <action android:name="android.intent.action.MAIN" />
+125-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:37:17-69
+125-->/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/AndroidManifest.xml:37:25-66
+126
+127                <data
+127-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:25:17-27:47
+128                    android:host="rzp.io"
+128-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:26:21-42
+129                    android:scheme="io.rzp" />
+129-->[com.razorpay:checkout:1.5.13] /Users/rds1/.gradle/caches/transforms-2/files-2.1/c50bdd6b0a47ff3b0cc14bf60770c32d/jetified-checkout-1.5.13/AndroidManifest.xml:27:21-44
+130            </intent-filter>
+131        </activity>
+132    </application>
+133
+134</manifest>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "372470401003",
+    "firebase_url": "https://shop-61f57-default-rtdb.firebaseio.com",
+    "project_id": "shop-61f57",
+    "storage_bucket": "shop-61f57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372470401003:android:01f5e4d4f3b1dec8963bae",
+        "android_client_info": {
+          "package_name": "com.hardwarestore.acme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372470401003-m3buq6n6lajhcnng08dgnhuv9n44l4fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7c4xTa2m5zNlORIsGgIMnbu0w9BQtPmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372470401003-m3buq6n6lajhcnng08dgnhuv9n44l4fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372470401003:android:14c13d258a139fa6963bae",
+        "android_client_info": {
+          "package_name": "com.tectibet.bolt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372470401003-m3buq6n6lajhcnng08dgnhuv9n44l4fk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7c4xTa2m5zNlORIsGgIMnbu0w9BQtPmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372470401003-m3buq6n6lajhcnng08dgnhuv9n44l4fk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
