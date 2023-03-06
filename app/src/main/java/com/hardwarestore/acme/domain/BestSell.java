@@ -2,12 +2,11 @@ package com.hardwarestore.acme.domain;
 
 import java.io.Serializable;
 
-/**
- * Created by kharag on 04-04-2020.
- */
+
 public class BestSell implements Serializable {
     String description;
     String name;
+
     String img_url;
     double price;
     int rating;
