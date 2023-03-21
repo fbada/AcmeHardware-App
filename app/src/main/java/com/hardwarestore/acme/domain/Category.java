@@ -1,8 +1,6 @@
 package com.hardwarestore.acme.domain;
+/** A class representing a category. */
 
-/**
- * Created by kharag on 04-04-2020.
- */
     public class Category {
 String type;
 String img_url;

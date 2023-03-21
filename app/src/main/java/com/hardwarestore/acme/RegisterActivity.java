@@ -24,6 +24,11 @@ public class RegisterActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private Toolbar mToolbar;
 
+    /**
+     * RegisterActivity allows users to create an account.
+     * Users can also navigate to the LoginActivity to log in.
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +68,10 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * signIn() navigates to the LoginActivity.
+     * @param view
+     */
     public void signIn(View view) {
         Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
         startActivity(intent);

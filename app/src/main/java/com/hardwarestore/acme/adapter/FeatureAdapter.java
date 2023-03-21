@@ -19,15 +19,29 @@ import com.hardwarestore.acme.domain.Feature;
 import java.util.List;
 
 /**
- * Created by kharag on 04-04-2020.
+ * A RecyclerView adapter for displaying featured items in a list.
+ * This adapter takes in a list of featured items and displays them as a list of images.
+ * When a featured item image is clicked, it launches the DetailActivity to display the details of that item.
  */
+
 public class FeatureAdapter extends RecyclerView.Adapter<FeatureAdapter.ViewHolder> {
     Context context;
     List<Feature> mFeatureList;
+    /**
+     * Constructs a new FeatureAdapter.
+     * @param context The context of the adapter.
+     * @param mFeatureList The list of featured items to display.
+     */
+
     public FeatureAdapter(Context context, List<Feature> mFeatureList) {
         this.context=context;
         this.mFeatureList=mFeatureList;
     }
+/** Creates a new ViewHolder for the adapter.
+     * @param parent The parent ViewGroup.
+     * @param viewType The view type of the new ViewHolder.
+     * @return A new ViewHolder for the adapter.
+     */
 
     @NonNull
     @Override
@@ -36,10 +50,15 @@ public class FeatureAdapter extends RecyclerView.Adapter<FeatureAdapter.ViewHold
 
         return new ViewHolder(view);
     }
+/**
+     * Binds data to the given ViewHolder.
+     * @param holder The ViewHolder to bind data to.
+     * @param position The position of the item in the list to bind data from.
+     */
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
-        holder.mFetCost.setText(mFeatureList.get(position).getPrice()+" $");
+        holder.mFetCost.setText("$ "+ mFeatureList.get(position).getPrice());
         holder.mFetName.setText(mFeatureList.get(position).getName());
         Glide.with(context).load(mFeatureList.get(position).getImg_url()).into(holder.mFetImage);
         holder.mFetImage.setOnClickListener(new View.OnClickListener() {
@@ -54,9 +73,15 @@ public class FeatureAdapter extends RecyclerView.Adapter<FeatureAdapter.ViewHold
 
     @Override
     public int getItemCount() {
+        //method to return the size of the list
         return mFeatureList.size();
     }
 
+    /**
+     * A ViewHolder for the adapter.
+     * This class holds the views for a single item in the list.
+     * @return A new ViewHolder for the adapter.
+     */
     public class ViewHolder extends RecyclerView.ViewHolder{
         ImageView mFetImage;
         TextView mFetCost;

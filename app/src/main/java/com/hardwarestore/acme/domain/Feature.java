@@ -3,7 +3,7 @@ package com.hardwarestore.acme.domain;
 import java.io.Serializable;
 
 /**
- * Created by kharag on 04-04-2020.
+ * A class representing a featured item.
  */
 public class Feature implements Serializable {
     String description;

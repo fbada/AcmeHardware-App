@@ -4,17 +4,7 @@
             "outputFile": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/rds1/.gradle/caches/transforms-2/files-2.1/b8b26baa02d2c462c2a4ed94ddf402fb/core-1.1.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/rds1/.gradle/caches/transforms-2/files-2.1/c4309134178f9444af44ff15e4252fae/appcompat-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/rds1/.gradle/caches/transforms-2/files-2.1/1b08066002a0811f59390926348a3acd/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/rds1/.gradle/caches/transforms-2/files-2.1/6c75f82330f8797a5ced41ed1828a177/core-1.2.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

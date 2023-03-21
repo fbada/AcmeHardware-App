@@ -52,10 +52,22 @@ public class HomeFragment extends Fragment {
     private TextView mFeature;
     private TextView mBestSell;
 
+    /**
+     * Required empty public constructor
+     */
+
     public HomeFragment() {
         // Required empty public constructor
     }
 
+    /**
+     * Inflates the layout for the fragment, initializes views, and sets up RecyclerViews.
+     *
+     * @param inflater           LayoutInflater object for inflating the layout
+     * @param container          ViewGroup object for holding the fragment layout
+     * @param savedInstanceState Bundle object containing saved state information
+     * @return View object representing the fragment layout
+     */
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -69,6 +81,7 @@ public class HomeFragment extends Fragment {
         mCatRecyclerView=view.findViewById(R.id.category_recycler);
         mFeatureRecyclerView =view.findViewById(R.id.feature_recycler);
         mBestSellRecyclerView = view.findViewById(R.id.bestsell_recycler);
+
         //For Category
         mCategoryList =new ArrayList<>();
         mCategoryAdapter=new CategoryAdapter(getContext(),mCategoryList);
@@ -80,7 +93,8 @@ public class HomeFragment extends Fragment {
         mFeatureAdapter=new FeatureAdapter(getContext(),mFeatureList);
         mFeatureRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
         mFeatureRecyclerView.setAdapter(mFeatureAdapter);
-        //For BestSell
+
+        //For BestSeller
         mBestSellList=new ArrayList<>();
         mBestSellAdapter=new BestSellAdapter(getContext(),mBestSellList);
         mBestSellRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(),RecyclerView.HORIZONTAL,false));
@@ -149,6 +163,7 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
         mFeature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

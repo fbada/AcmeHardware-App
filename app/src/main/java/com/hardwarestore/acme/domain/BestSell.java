@@ -2,6 +2,9 @@ package com.hardwarestore.acme.domain;
 
 import java.io.Serializable;
 
+/**
+ * A class representing a best selling item.
+ */
 
 public class BestSell implements Serializable {
     String description;

@@ -17,7 +17,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-
 public class LoginActivity extends AppCompatActivity {
     private EditText mEmail;
     private EditText mPassword;
@@ -25,53 +24,60 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private Toolbar mToolbar;
 
+    /**
+     * LoginActivity allows users to log in to the app.
+     * Users can also navigate to the RegisterActivity to create an account.
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mEmail=findViewById(R.id.log_email);
-        mPassword=findViewById(R.id.log_pass);
-        mLoginBtn=findViewById(R.id.log_btn);
-        mAuth=FirebaseAuth.getInstance();
-        mToolbar=findViewById(R.id.login_toolbar);
+        mEmail = findViewById(R.id.log_email);
+        mPassword = findViewById(R.id.log_pass);
+        mLoginBtn = findViewById(R.id.log_btn);
+        mAuth = FirebaseAuth.getInstance();
+        mToolbar = findViewById(R.id.login_toolbar);
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email=mEmail.getText().toString();
-                String password=mPassword.getText().toString();
-                if(!email.isEmpty() && !password.isEmpty()){
-                    mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                String email = mEmail.getText().toString();
+                String password = mPassword.getText().toString();
+                if (!email.isEmpty() && !password.isEmpty()) {
+
+                    mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()){
+                            if (task.isSuccessful()) {
                                 Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                                Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                                 startActivity(intent);
-                            }else{
-                                Toast.makeText(LoginActivity.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
-
+                            } else {
+                                Toast.makeText(LoginActivity.this, "" + task.getException(), Toast.LENGTH_SHORT).show();
                             }
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(LoginActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
-                }else{
+                } else {
                     Toast.makeText(LoginActivity.this, "Please fill empty field!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
-
     }
 
+    /**
+     * signUp() navigates to the RegisterActivity.
+     */
 
     public void signUp(View view) {
-        Intent intent=new Intent(LoginActivity.this,RegisterActivity.class);
+        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(intent);
     }
 }

@@ -20,12 +20,12 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_baseline_circle_24.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/baseline_circle_24.xml"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_hammer.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/hammer.png"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
@@ -44,12 +44,16 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_home.xml"
     },
     {
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_add_address.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_add_address.xml"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_iconmain.png.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/iconmain.png"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -68,10 +72,6 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/menu/main_menu.xml"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_tools.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/tools.png"
-    },
-    {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -82,10 +82,6 @@
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_splashscreen.png.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/splashscreen.png"
-    },
-    {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_cloth1.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/cloth1.png"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_ic_search_black_24dp.xml.flat",
@@ -104,20 +100,8 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_button2.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/button2.png"
-    },
-    {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_login_btn_bg.png.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/login_btn_bg.png"
-    },
-    {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_button.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/button.png"
-    },
-    {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_heart.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/heart.png"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -128,8 +112,8 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_drill.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/drill.png"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_roundedbutton2.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/roundedbutton2.xml"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -138,10 +122,6 @@
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_splash_screen.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_gaarden.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/gaarden.png"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_mainimg.png.flat",
@@ -156,12 +136,12 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_payment.xml.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_payment.xml"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_cart_image.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/cart_image.xml"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_paint.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/paint.png"
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_payment.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_payment.xml"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -174,6 +154,10 @@
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_single_cart_item.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/single_cart_item.xml"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_item.xml.flat",
@@ -192,8 +176,16 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_roundedbutton.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/roundedbutton.xml"
+    },
+    {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_single_feature_item.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/single_feature_item.xml"
+    },
+    {
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/layout_activity_cart.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/layout/activity_cart.xml"
     },
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -224,10 +216,6 @@
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_paint_brush.png.flat",
-        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/paint_brush.png"
-    },
-    {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_search_bg.xml.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/search_bg.xml"
     },
@@ -238,5 +226,9 @@
     {
         "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/res/merged/debug/drawable_baseline_star_border_24.xml.flat",
+        "source": "/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/src/main/res/drawable/baseline_star_border_24.xml"
     }
 ]

@@ -1,0 +1,7 @@
+#Sun Mar 05 19:49:52 CST 2023
+base.1=/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex
+path.1=classes.dex
+base.0=/Users/rds1/Desktop/CYBERSEC/IT-633-MobileAppDev/MOD 005/AcmeHardware/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

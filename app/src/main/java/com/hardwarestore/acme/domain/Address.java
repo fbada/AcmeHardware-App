@@ -1,11 +1,12 @@
 package com.hardwarestore.acme.domain;
 
 /**
- * Created by kharag on 05-04-2020.
+ * A class representing an address.
  */
 public class Address {
     String address;
     boolean isSelected;
+
 
     public boolean isSelected() {
         return isSelected;

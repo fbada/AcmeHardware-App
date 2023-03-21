@@ -20,15 +20,30 @@ import com.hardwarestore.acme.domain.Items;
 import java.util.List;
 
 /**
- * Created by kharag on 11-04-2020.
+ * A RecyclerView adapter for displaying featured items in a list.
+ * This adapter takes in a list of featured items and displays them as a list of images.
+ * When a featured item image is clicked, it launches the DetailActivity to display the details of that item.
  */
+
 public class ItemsRecyclerAdapter extends RecyclerView.Adapter<ItemsRecyclerAdapter.ViewHolder> {
     Context applicationContext;
     List<Items> mItemsList;
+    /**
+     * Constructs a new FeatureAdapter.
+     * @param applicationContext The context of the adapter.
+     * @param mItemsList The list of featured items to display.
+     */
+
     public ItemsRecyclerAdapter(Context applicationContext, List<Items> mItemsList) {
         this.applicationContext=applicationContext;
         this.mItemsList=mItemsList;
     }
+
+    /** Creates a new ViewHolder for the adapter.
+     * @param parent The parent ViewGroup.
+     * @param viewType The view type of the new ViewHolder.
+     * @return A new ViewHolder for the adapter.
+     */
 
     @NonNull
     @Override
@@ -36,6 +51,11 @@ public class ItemsRecyclerAdapter extends RecyclerView.Adapter<ItemsRecyclerAdap
         View view= LayoutInflater.from(applicationContext).inflate(R.layout.single_item_layout,parent,false);
         return new ViewHolder(view);
     }
+/**
+     * Binds data to the given ViewHolder.
+     * @param holder The ViewHolder to bind data to.
+     * @param position The position of the item in the list to bind data from.
+     */
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
@@ -57,6 +77,7 @@ public class ItemsRecyclerAdapter extends RecyclerView.Adapter<ItemsRecyclerAdap
                 applicationContext.startActivity(intent);
             }
         });
+
         holder.mName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,15 +94,19 @@ public class ItemsRecyclerAdapter extends RecyclerView.Adapter<ItemsRecyclerAdap
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        private ImageView mItemImage;
-        private TextView mCost;
-        private TextView mName;
+        private ImageView mItemImage;//item image
+        private TextView mCost;//item cost
+        private TextView mName;//item name
 
+        /**
+         * Constructs a new ViewHolder.
+         * @param itemView The view of the ViewHolder.
+         */
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             mItemImage=itemView.findViewById(R.id.item_image);
             mCost=itemView.findViewById(R.id.item_cost);
-            mName=itemView.findViewById(R.id.item_nam);
+            mName=itemView.findViewById(R.id.item_name);
         }
     }
 }
